@@ -1,0 +1,113 @@
+body{
+  background-image: url();
+  
+  
+*{
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+}
+ul {
+  list-style: none;
+  background: #22438C;
+  background-image: url(/storage/emulated/0/DCIM/Camera/IMG_20240417_130521.png);
+}
+ul li {
+  display: inline-block;
+  position: relative;
+}
+ul li a {
+  display: block;
+  padding: 20px 25px;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+
+}
+ul li ul.dropdown li {
+  display: block;
+}
+ul li ul.dropdown {
+  width: 100%;
+  background: #22438C;
+  position: absolute;
+  z-index: 999;
+  display: none;
+
+}
+display: block;
+}
+- ul li ul.dropdown {
+  width: 100%;
+  background: #22438C;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+ul li a:hover {
+  background: #112C66;
+}
+ul li:hover ul.dropdown {
+  display: block;
+}
+.login-container {
+            background-image: url(/storage/emulated/0/DCIM/Screenshots/IMG_20240422_132520.jpg);
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .login-container {
+            
+            background-size: cover; 
+            background-position: center; 
+            width: 90%; 
+            height: 550px;
+}
+
+        .container h1, .container p {
+            color: transparent;
+}
+        .login-container h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        .form-group button {
+            width: 80%;
+            text-align: center;
+            padding: 10px;
+            border: none;
+            border-radius: 30px;
+            background-color: white;
+            color: #1673F5;
+            cursor:;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+        .login-container {
+            text-align: center;
+        }
+        .login-container h2 {
+            margin-bottom: 40px;
+        }
+        .login-container img {
+            width: 50px;
+            margin: 10px;
+        }
